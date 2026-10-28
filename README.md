@@ -10,7 +10,7 @@ Desde el celular, en la misma red Wi-Fi: http://IP-DE-TU-PC:8000
 GitHub → Settings → Pages → rama `main`, carpeta `/ (root)`.
 
 ## QR
-Cuando la URL pública esté verificada: `pip install "qrcode[pil]"` y `python tools/generar_qr.py <URL>`.
+Cuando la URL pública esté verificada: `pip install "qrcode[pil]"` y `python generar_qr.py <URL>`.
 
 ## Estado
 Menú, navegación, progreso y diploma listos. Las 5 aventuras son pantallas provisionales.

@@ -36,7 +36,7 @@ async function renderGame(id) {
   const adv = ADVENTURES.find(a => a.id === id);
   app.innerHTML = '<div id="juego"></div>';
   try {
-    const mod = await import(`./games/${id}.js`);
+    const mod = await import(`./${id}.js`);
     mod.start(document.getElementById('juego'), {
       onComplete: () => { completeAdventure(id); renderResult(adv); },
       onExit: () => goTo('home'),
